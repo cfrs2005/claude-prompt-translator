@@ -10,7 +10,19 @@
                +-> 翻译进度、耗时、译文预览
 ```
 
-使用演示我会放在视频里。本页重点说明怎么安装和接入。
+## toy 的实现原理手稿
+
+![toy 手绘 Claude Prompt Translator 实现原理](assets/architecture/principle.png)
+
+[可缩放 SVG](assets/architecture/principle.svg) · [可编辑 Excalidraw](assets/architecture/principle.excalidraw)
+
+## 视频演示
+
+[![Claude 多语言Prompt 转换 — Toy张](https://i.ytimg.com/vi/VBJLDWzfLpI/hqdefault.jpg)](https://www.youtube.com/watch?v=VBJLDWzfLpI)
+
+[在 YouTube 观看：Claude 多语言Prompt 转换](https://www.youtube.com/watch?v=VBJLDWzfLpI)
+
+本页继续说明怎么安装和接入；实际使用效果见视频。
 
 ## 1. 安装插件
 
