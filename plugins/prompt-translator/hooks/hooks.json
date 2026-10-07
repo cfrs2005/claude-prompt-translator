@@ -1,0 +1,6 @@
+{
+  "description": "Translate prompts into the configured target language through the external GLM API before submission.",
+  "modules": [
+    "./register.ts"
+  ]
+}

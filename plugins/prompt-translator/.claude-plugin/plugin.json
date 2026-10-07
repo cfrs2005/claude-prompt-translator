@@ -1,0 +1,63 @@
+{
+  "name": "prompt-translator",
+  "version": "0.1.0",
+  "description": "Translate prompts before Claude Code using your own OpenAI-compatible API.",
+  "author": {
+    "name": "Toy",
+    "url": "https://github.com/cfrs2005"
+  },
+  "userConfig": {
+    "api_url": {
+      "type": "string",
+      "title": "API URL",
+      "description": "Complete OpenAI-compatible chat/completions URL. Change this when using another provider.",
+      "default": "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions"
+    },
+    "model": {
+      "type": "string",
+      "title": "Translation model",
+      "description": "Model ID accepted by your translation API.",
+      "default": "glm-5.3-flash"
+    },
+    "api_key": {
+      "type": "string",
+      "title": "API Key",
+      "description": "Saved in secure storage. Alternatively use TRANSLATOR_API_KEY in the environment or plugin .env.",
+      "sensitive": true
+    },
+    "language": {
+      "type": "string",
+      "title": "Target language",
+      "description": "en: English; jp: Japanese; cn: Simplified Chinese; fr: French. Controls prompt translation and replies.",
+      "options": [
+        "en",
+        "jp",
+        "cn",
+        "fr"
+      ],
+      "default": "en"
+    },
+    "reasoning_effort": {
+      "type": "string",
+      "title": "Reasoning effort",
+      "description": "Use low for the default GLM model. Choose default to omit this field for APIs that do not support it.",
+      "options": [
+        "default",
+        "low",
+        "medium",
+        "high",
+        "max"
+      ],
+      "default": "low"
+    }
+  },
+  "homepage": "https://github.com/cfrs2005/claude-prompt-translator",
+  "repository": "https://github.com/cfrs2005/claude-prompt-translator",
+  "license": "MIT",
+  "keywords": [
+    "translation",
+    "multilingual",
+    "claude-code",
+    "mods"
+  ]
+}
