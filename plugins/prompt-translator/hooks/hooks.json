@@ -1,5 +1,5 @@
 {
-  "description": "Translate prompts into the configured target language through the external GLM API before submission.",
+  "description": "Translate prompts and response text through the configured HTTP API or local Codex CLI, with independent language routing.",
   "modules": [
     "./register.ts"
   ]

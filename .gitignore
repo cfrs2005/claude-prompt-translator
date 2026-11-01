@@ -8,5 +8,6 @@
 node_modules/
 dist/
 .claude/
+/openspec/
 **/.claude-plugin/types/
 **/tsconfig.json
